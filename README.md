@@ -8,23 +8,23 @@ services business. 5.0 stars from 29 Google reviews, every one five stars.
 - **Phone** *none published* — see the warning below
 - **Address** *none published* — service-area business, no storefront
 
-## ⚠ Before this goes live
+## Contact details — where they came from
 
-**There is no telephone number on the Google listing.** Google shows "Add
-place's phone number", meaning none is set. There is also no street address and
-no published weekly schedule.
+Google publishes **no phone number and no address** for this business ("Add
+place's phone number"). The number and service area on this site come from the
+**Yelp listing**, corroborated by a Nextdoor reference:
 
-Nothing has been invented to fill those gaps. The site carries **no `tel:`
-link, no phone-shaped digits and no street address anywhere** — verified. Every
-call to action routes to the Google Business listing instead.
+- **Phone** (407) 636-0021
+- **Service area** Greater Orlando, including Wekiwa Springs
+- **Address** none published anywhere — service-area business
 
-Three one-line fixes, in order of value:
+Both are worth confirming with Anthony. The higher-value action is **adding the
+number to the Google listing**, since that is where most people will look
+first and currently find no way to call.
 
-1. **Add a phone number to the Google listing, then to this site.** It is the
-   single biggest thing holding this page back — a handyman site that cannot be
-   called is doing half a job.
-2. **Complete the hours.** Google publishes only an 8 AM opening.
-3. **Confirm the service area.** The listing publishes none.
+Still outstanding: **the weekly hours.** Google publishes only an 8 AM opening,
+so `contact.html` prints that and says the rest is not published rather than
+inventing a schedule.
 
 ## Pages
 
@@ -37,9 +37,9 @@ Three one-line fixes, in order of value:
 
 ## Design
 
-The missing phone number is not a footnote — it changed the brief. Every other
-site in this set was built to drive a call. This one cannot be, so it was built
-to do what the reviews already describe:
+The design brief came from the reviews rather than from the services list.
+Google had no phone number on file when this was built, which forced the
+question of what the site is actually for — and the reviews answered it:
 
 > Lisa was "referred to me by a friend in my neighborhood who had previously
 > hired him." Randa "learned about Anthony's home improvement services through
@@ -47,6 +47,8 @@ to do what the reviews already describe:
 
 This business grows by word of mouth. So the site is **a calling card** — a
 page built to be forwarded to the next person who asks a neighbour who to call.
+The phone number was found later, on Yelp, and now leads every call to action;
+the referral thesis it was built on still holds.
 
 Engraved-stationery language throughout: a narrow centred measure (720px), thin
 rules with a claret diamond at their centre, a double-ruled monogram, and
@@ -74,6 +76,9 @@ request.
 | Kitchen, Bathroom, Inside, Exterior work | Listing photo categories |
 | Proprietor is Anthony | All three reviews name him |
 | Opens 8 AM | Google profile |
+| Phone (407) 636-0021 | Yelp listing, corroborated via Nextdoor |
+| Greater Orlando, incl. Wekiwa Springs | Yelp listing |
+| "I can do a little bit of everything! No job is too small!" | Yelp listing, Anthony's own description |
 
 Reviews are quoted verbatim with truncations marked. Only Randa's review
 carries an owner reply, so only hers shows one. No star distribution is drawn.
@@ -84,7 +89,9 @@ on the line itself.
 
 ## Before launch
 
-- The three items in the warning above.
+- Confirm the phone number and service area with Anthony, and add the number to
+  the Google listing.
+- Complete the weekly hours.
 - Photography is placeholder stock in `assets/img/`. Anthony posts his own
   project photos to the Google listing under Kitchen, Bathroom, Inside and
   Exterior — the most recent eighteen days ago. Replace the files keeping the
